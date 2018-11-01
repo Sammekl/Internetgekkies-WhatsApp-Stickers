@@ -73,7 +73,35 @@
           "emojis": ["💻","😩"]
         },
         {
-          "image_file": "16_wispelturig.webp",
+          "image_file": "17_habier.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "18_krakaka.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "19_maxim.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "20_moedr.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "21_rustaagh.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "22_sidney.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "23_steen.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "24_biem.webp",
           "emojis": ["😡","😤"]
         }
       ]
