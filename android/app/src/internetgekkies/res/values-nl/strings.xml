@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Internetgekkies Stickers</string>
+    <string name="tray_image_content_description">Sticker Pack Tray Image</string>
+    <string name="more_info_button">Meer informatie over sticker pack</string>
+    <string name="add_to_whatsapp">Voeg toe aan WhatsApp</string>
+    <string name="add_button_content_description">Voeg stickers toe aan WhatsApp</string>
+    <string name="title_activity_sticker_packs_list">Sticker Packs</string>
+    <string name="dot">•</string>
+    <string name="title_activity_sticker_pack_details_single_pack">Sticker Pack</string>
+    <string name="title_activity_sticker_pack_details_multiple_pack">Sticker details</string>
+    <string name="title_activity_sticker_pack_info">Info</string>
+    <string name="view_webpage">Bekijk website</string>
+    <string name="send_email">Stuur email</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="error_adding_sticker_pack">"Mislukt om de stickers toe te voegen. Installeer de laatste versie van WhatsApp"</string>
+    <string name="error_message">Error: %s \nSee logcat for stack trace.</string>
+    <string name="title_validation_error">Error met dit pakket</string>
+    <string name="info_screen_tray_icon">Tray icon</string>
+    <string name="details_pack_already_added">Sticker pack toegevoegd aan WhatsApp</string>
+</resources>

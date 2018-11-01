@@ -13,10 +13,9 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.sammekleijn.internetgekkies.stickers"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 1
+        versionCode 3
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
@@ -36,6 +35,18 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "stickerDim"
+    productFlavors {
+        internetgekkies {
+            applicationId "com.sammekleijn.internetgekkies.stickers"
+            dimension "stickerDim"
+        }
+        deepfried {
+            applicationId "com.sammekleijn.deepfried.stickers"
+            dimension "stickerDim"
         }
     }
     compileOptions {
