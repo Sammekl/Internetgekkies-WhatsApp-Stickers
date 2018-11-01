@@ -15,18 +15,9 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 4
-        versionName "1.0.1"
-        applicationId "com.sammekleijn.deepfried.stickers"
+        versionCode 5
+        versionName "1.0.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        def contentProviderAuthority = applicationId + ".stickercontentprovider"
-        // Creates a placeholder property to use in the manifest.
-        manifestPlaceholders =
-                [contentProviderAuthority: contentProviderAuthority]
-        // Adds a new field for the authority to the BuildConfig class.
-        buildConfigField("String",
-                "CONTENT_PROVIDER_AUTHORITY",
-                "\"${contentProviderAuthority}\"")
     }
     buildTypes {
         debug {
@@ -44,10 +35,18 @@ android {
         internetgekkies {
             applicationId "com.sammekleijn.internetgekkies.stickers"
             dimension "stickerDim"
+
+            def contentProviderAuthority = "com.sammekleijn.internetgekkies.stickers.stickercontentprovider"
+            manifestPlaceholders = [contentProviderAuthority: contentProviderAuthority]
+            buildConfigField("String", "CONTENT_PROVIDER_AUTHORITY", "\"${contentProviderAuthority}\"")
         }
         deepfried {
             applicationId "com.sammekleijn.deepfried.stickers"
             dimension "stickerDim"
+
+            def contentProviderAuthority = "com.sammekleijn.deepfried.stickers.stickercontentprovider"
+            manifestPlaceholders = [contentProviderAuthority: contentProviderAuthority]
+            buildConfigField("String", "CONTENT_PROVIDER_AUTHORITY", "\"${contentProviderAuthority}\"")
         }
     }
     compileOptions {
