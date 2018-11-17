@@ -17,4 +17,5 @@
     <string name="title_validation_error">Error met dit pakket</string>
     <string name="info_screen_tray_icon">Tray icon</string>
     <string name="details_pack_already_added">Sticker pack toegevoegd aan WhatsApp</string>
+    <string name="special_thanks_to_ramses_dijkstra">Special thanks to: Ramses Dijkstra</string>
 </resources>

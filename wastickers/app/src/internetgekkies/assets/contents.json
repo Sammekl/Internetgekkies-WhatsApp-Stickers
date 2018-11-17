@@ -6,7 +6,7 @@
       "identifier": "1",
       "name": "Internetgekkies Stickers",
       "publisher": "Samme Kleijn",
-      "tray_image_file": "tray_henk.webp",
+      "tray_image_file": "tray_blikje.webp",
       "publisher_email":"sammekleijn@gmail.com",
       "publisher_website": "https://sammekleijn.com",
       "privacy_policy_website": "",
@@ -74,7 +74,7 @@
         },
         {
           "image_file": "17_habier.webp",
-          "emojis": ["😡","😤"]
+          "emojis": ["🍺"]
         },
         {
           "image_file": "18_krakaka.webp",
@@ -82,7 +82,7 @@
         },
         {
           "image_file": "19_maxim.webp",
-          "emojis": ["😡","😤"]
+          "emojis": ["😡","😁"]
         },
         {
           "image_file": "20_moedr.webp",
@@ -94,14 +94,38 @@
         },
         {
           "image_file": "22_sidney.webp",
-          "emojis": ["😡","😤"]
+          "emojis": ["🍺","💨", "💎"]
         },
         {
           "image_file": "23_steen.webp",
-          "emojis": ["😡","😤"]
+          "emojis": ["🍺","💨", "💎"]
         },
         {
           "image_file": "24_biem.webp",
+          "emojis": ["💣","😂"]
+        },
+        {
+          "image_file": "25_rijdenderechter.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "26_kees.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "27_ad.webp",
+          "emojis": ["😡","😁"]
+        },
+        {
+          "image_file": "28_armoo.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "29_braboneger.webp",
+          "emojis": ["😁"]
+        },
+        {
+          "image_file": "30_felix.webp",
           "emojis": ["😡","😤"]
         }
       ]
